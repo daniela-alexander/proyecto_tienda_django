@@ -1,23 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
+{% extends "base.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech2Hand</title>
-</head>
+{% block title %}
+Inicio | Tech2Hand
+{% endblock %}
 
-<body>
-    <header>
-        <h1>Tech2Hand</h1>
-    </header>
-    <main>
-        <h2>Tecnología de segunda mano</h2>
-        <p>
-            Compra, vende e intercambia productos tecnológicos
-            con otros usuarios.
-        </p>
-    </main>
-</body>
-
-</html>
+{% block content %}
+<h1>Tech2Hand</h1>
+<p>
+    Compra, vende e intercambia
+    tecnología de segunda mano.
+</p>
+{% endblock %}

@@ -1,0 +1,80 @@
+PROYECTO: Tech2Hand
+SESIÓN: 01
+FASE: Análisis, planificación y configuración inicial
+FECHA:06/10/2026
+HORA DE ENTRADA: 17:00
+HORA DE SALIDA: 17:45
+DURACIÓN: 45min
+OBJETIVO: Definir el proyecto Tech2Hand y preparar una base Django funcional.
+
+TEORÍA ESTUDIADA:
+
+- Ciclo de desarrollo
+- Requisitos
+- Historias de usuario
+- MVP
+- Django Project vs App
+- URL / View / Template
+- Static / Media
+- Migraciones
+- Git
+
+TAREAS REALIZADAS:
+
+- Definición de Tech2Hand
+- Objetivos
+- Requisitos
+- Historias de usuario
+- Entorno virtual
+- Instalación Django
+- Proyecto Django
+- Apps
+- Templates
+- Static
+- Media
+- Página principal
+- Admin
+- Git
+
+TECNOLOGÍAS:
+
+Python
+Django
+SQLite
+Git
+HTML
+
+ARCHIVOS IMPORTANTES:
+
+config/settings.py
+config/urls.py
+core/views.py
+core/urls.py
+templates/core/home.html
+.gitignore
+requirements.txt
+
+TESTS / COMPROBACIONES:
+
+python manage.py check
+python manage.py migrate
+python manage.py runserver
+
+PROBLEMAS: 
+
+SOLUCIONES:
+
+COMMIT:
+
+feat: initialize Tech2Hand Django project
+
+ESTADO:
+
+  Pendiente
+  En progreso
+√ Completada
+
+OBSERVACIONES:
+
+SIGUIENTE SESIÓN: Arquitectura profesional, configuración, variables de entorno y
+preparación del sistema de usuarios.
